@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex flex-row p-8">
       <Box title="All Data" btn="Add" data={Data} />
-      <Box title="Selected Data" btn="Delete" data={Data} />     
+      <Box title="Selected Data" btn="Delete" data={SelectedData} />     
     </div>
   );
 }
