@@ -21,6 +21,7 @@ function Box(props) {
     let arr = [...Selected];
     arr.push(item);
     setSelected(arr);
+    console.log(item)
   };
 
   return (
